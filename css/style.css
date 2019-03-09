@@ -3,6 +3,8 @@
     margin: 0 auto;
 }
 
+/* ------------------------page-header--------------------------- */
+
 .page-header {
     position: relative;
     padding: 40px 0;
@@ -120,6 +122,8 @@
     color: #E9D88F;
 }
 
+/* ------------------------main--------------------------- */
+
 .card {
     font-family: 'Lora', serif;
     margin-top: 20px;
@@ -175,6 +179,8 @@
     list-style-type: circle;
     margin-bottom: 10px;
 }
+
+/* ------------------------page-footer--------------------------- */
 
 .page-footer {
     background: #213865;
