@@ -1,0 +1,214 @@
+.container {
+    width: 800px;
+    margin: 0 auto;
+}
+
+.page-header {
+    position: relative;
+    padding: 40px 0;
+}
+.page-header::before {
+    display: block;
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 50%;
+    background: #97A9CD;
+    z-index: -10;
+}
+
+.info-card {
+    font-family: 'Lora', serif;
+    display: flex;
+    box-shadow: 3px 2px 5px 0 #566074;
+    border-radius: 5px;
+    transition: 0.1s ease-out;
+
+}
+.info-card:hover {
+    transform: scale(1.03);
+    transition: 0.1s ease-in;
+}
+
+.photo {
+    position: relative;
+    width: 400px;
+    height: 350px;
+    background: url('../img/photo.jpg') no-repeat -85px -40px;
+    background-size: 150%;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px; 
+}
+.photo::before {
+    display: block;
+    content: '';
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 350px 0 0 150px;
+    border-color: transparent transparent transparent #213865;
+}
+
+
+.info-card .info {
+    padding: 80px 50px;
+    padding-bottom: 0;
+    width: 300px;
+    color: #fff;
+    background: #213865;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.info-card .info h1 {
+    font-size: 30px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.contacts {
+    margin-top: 40px;
+}
+
+.contacts a {
+    display: flex;
+    font-family: 'Lora', serif;
+    font-size: 15px;
+    text-decoration: none;
+    color: #F4EAC0;
+    margin-bottom: 10px;
+    letter-spacing: 0.05px;
+}
+
+.contacts a i {
+    margin-right: 10px;
+}
+
+.contacts-social {
+    margin-top: 50px;
+}
+.contacts-social a i {
+    margin: 0;
+}
+.contacts-social a {
+    display: block;
+    text-align: center;
+    float: left;
+    width: 60px;
+    height: 60px;
+    font-size: 25px;
+    line-height: 60px;
+    background: transparent;
+    color: #fff;
+    border-radius: 5px;
+    transition: 0.1s ease-out;
+}
+
+.contacts-social a:hover {
+    box-shadow: 1px 1px 5px -1px black;
+}
+.contacts-social a:hover i {
+    transform: scale(1.3);
+    transition: 0.15s ease-in;
+}
+.contacts-social a:active {
+    color: #E9D88F;
+}
+
+.card {
+    font-family: 'Lora', serif;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    padding: 15px 35px;
+    box-shadow: 2px 1px 5px 0 #566074;
+    border-radius: 5px;
+    transition: 0.1s ease-out;
+}
+.card:hover {
+    transform: scale(1.03);
+    transition: 0.1s ease-in;
+}
+.card h2 {
+    font-weight: bold;
+    margin-bottom: 20px;
+    font-size: 25px;
+    color: #213865;
+}
+
+.card p {
+    color: #213865;
+    margin-left: 30px;
+    font-size: 15px;
+    line-height: 1.1em;
+    word-break: break;
+    letter-spacing: 0.02px;
+}
+
+.card i {
+    font-style: italic;
+}
+.card b {
+    font-weight: bold;
+}
+.card a {
+    text-decoration: none;
+    color: #213865;
+}
+.card a:hover {
+    color: #E9D88F;
+}
+.card ul {
+    color: #213865;
+    margin-left: 30px;
+    font-size: 15px;
+    line-height: 1.1em;
+    word-break: break;
+    letter-spacing: 0.02px;
+}
+
+.card li {
+    list-style-type: circle;
+    margin-bottom: 10px;
+}
+
+.page-footer {
+    background: #213865;
+}
+
+.footer-container {
+    padding: 20px 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.page-footer .copyright {
+    font-family: 'Lora', serif;
+    font-size: 15px;
+    justify-items: center;
+    color: #fff;
+    margin-left: 20px;
+}
+
+.footer-social a {
+    display: block;
+    float: left;
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+    margin-right: 20px;
+    transition: 0.1s ease-out;
+}
+
+.footer-social a:hover {
+    transform: scale(1.2);
+    transition: 0.1s ease-in;
+}
+
+.footer-social a:active {
+    color: #E9D88F;
+}
